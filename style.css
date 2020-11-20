@@ -1,0 +1,57 @@
+html, body, div, p, head, {
+    margin: 0px 0px 0px 0px;
+}
+
+body {
+    background-color: #eee;
+}
+.inStock {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-weight: 550;
+    background-color: #fff;
+    
+}
+
+.inStock p {
+    width: 33%;
+}
+
+button {
+    padding: 10px 5px 10px 5px;
+    font-weight: 550;
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    padding-left: 200px;
+}
+hr {
+    margin-left: 200px;
+    margin-right: 1250px;
+}
+
+.darkMode {
+    background-color: #000;
+}
+.darkMode p {
+    color: #fff;
+}
+.darkMode .inStock {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+.darkMode h1 {
+    color: white;
+}
+
+.darkMode button {
+    background-color: #000;
+    color: #fff
+}
